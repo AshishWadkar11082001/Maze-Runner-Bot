@@ -1,0 +1,54 @@
+def control_logic(sim):
+
+	Purpose: This function should implement the control logic for the given problem statement. You are required to actuate the rotary joints of the robot in this function, such that it traverses the points in given order
+
+	Input Arguments: `sim`    :   [ object ]
+				ZeroMQ RemoteAPI object
+
+	Returns: None
+
+	Example call: control_logic(sim)
+
+
+
+def detect_distance_sensor_1(sim):
+	
+	Purpose: Returns the distance of obstacle detected by proximity sensor named 'distance_sensor_1'
+
+	Input Arguments: `sim`    :   [ object ]
+				ZeroMQ RemoteAPI object
+
+	Returns: distance  :  [ float ]
+	         distance of obstacle from sensor
+
+	Example call: distance_1 = detect_distance_sensor_1(sim)
+
+
+def detect_distance_sensor_2(sim):
+	
+	Purpose: Returns the distance of obstacle detected by proximity sensor named 'distance_sensor_2'
+
+	Input Arguments: `sim`    :   [ object ]
+				ZeroMQ RemoteAPI object
+
+	Returns: distance  :  [ float ]
+	         distance of obstacle from sensor
+
+	Example call: distance_2 = detect_distance_sensor_2(sim)
+
+
+def detect_distance_sensor_3(sim):
+	
+	Purpose: Returns the distance of obstacle detected by proximity sensor named 'distance_sensor_2'
+
+	Input Arguments: `sim`    :   [ object ]
+				ZeroMQ RemoteAPI object
+
+	Returns: distance  :  [ float ]
+		   distance of obstacle from sensor
+
+	Example call: distance_2 = detect_distance_sensor_2(sim)
+
+
+
+
